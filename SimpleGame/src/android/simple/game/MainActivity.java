@@ -12,7 +12,7 @@ import android.view.Menu;
 
 
 public class MainActivity extends Activity {
-	private int count=0;//ゲーム開始カウント用
+	private int count=0;//繧ｲ繝ｼ繝髢句ｧ九き繧ｦ繝ｳ繝育畑
 	private Dialog dialog;
 	private ScheduledExecutorService executor;
 	private Handler handler=new Handler();
@@ -30,7 +30,7 @@ public class MainActivity extends Activity {
 		getMenuInflater().inflate(R.menu.main, menu);
 		return true;
 	}
-	//カウントダウン
+	//繧ｫ繧ｦ繝ｳ繝医ム繧ｦ繝ｳ
 	public void countdown(){
 		count=6;
 		dialog = new Dialog(this);
